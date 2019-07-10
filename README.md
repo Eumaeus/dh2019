@@ -65,6 +65,16 @@ Click around and see what you can see.
 
 The source files for the live presentation in Utrecht.
 
+If you have [Pandoc](https://pandoc.org) installed, you can build the presentation from source with:
+
+~~~ bash
+cd /presentation
+pandoc -t revealjs dh2019.md -s -o dh2019.html --metadata pagetitle=DH2019 -V theme=solarized
+~~~
+
+Open `dh2019.html` to view the presentation in your browser.
+
+
 ## Some Applications Using CEX
 
 Below are some live links to applications and services currently using the CITE Architecture, and more importantly, loading data from CEX files featuring the “discoverable data models” that are the focus of this presentation.

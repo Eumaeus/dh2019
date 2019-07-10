@@ -104,6 +104,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Project Architects, <em>The Homer Multitext</em>, C. Dué and M. Ebbott, edd.</p>
 </div>
 </section>
+<section class="slide level2">
+
+<p>https://github.com/Eumaeus/dh2019</p>
+</section>
 <section id="cite" class="slide level2">
 <h2>CITE</h2>
 <p><strong>C</strong>ollections, <strong>I</strong>ndices, <strong>T</strong>exts, &amp; <strong>E</strong>xtensions.</p>
@@ -111,7 +115,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section class="slide level2">
 
-<p><strong>Scholarly Primitives &amp; Compositions Thereof</strong></p>
+<p>Machine-actionable canonical citation with URNs.</p>
+<p>URNs capturing the semantics of specific models of scholarly data.</p>
+<p>(<em>n.b.</em> URNs are the <em>immutable</em> form of a URI.)</p>
 </section>
 <section class="slide level2">
 
@@ -148,6 +154,15 @@ urn:cts:greekLit:tlg0012.tlg001.msA:1.3#πολλὰς δ&#39; ἰφθίμους 
 <p><code>urn:cite2:hmt:lsj.chicago_md:n61791</code> ➛ An object in a versioned collection</p>
 <p><code>urn:cite2:hmt:lsj.chicago_md.lemma:n61791</code> ➛ A <em>citable property value</em> of an object in a versioned collection</p>
 </section>
+<section id="the-i-in-cite" class="slide level2">
+<h2>The “I” in “CITE”</h2>
+<p><strong>Indices</strong> can be s-v-o relations among URNs, with the verb expressed as a CITE2 URN as well.</p>
+<p>Or, CITE Objects can have properties of type <code>CtsUrn</code> or <code>Cite2Urn</code>.</p>
+</section>
+<section class="slide level2">
+
+<p><strong>Scholarly Primitives &amp; Compositions Thereof</strong></p>
+</section>
 <section id="cite-and-cex" class="slide level2">
 <h2>CITE and CEX</h2>
 <p>The CITE Exchange format.</p>
@@ -165,8 +180,8 @@ urn:cts:greekLit:tlg0012.tlg001.msA:1.3#πολλὰς δ&#39; ἰφθίμους 
 
 <p>The old practice: Citation to a <em>place where an image can be found.</em></p>
 <ul>
-<li class="fragment">A page in a book</li>
-<li class="fragment">An address on the internet</li>
+<li>A page in a book</li>
+<li>An address on the internet</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -203,8 +218,22 @@ urn:cts:greekLit:tlg0012.tlg001.msA:1.3#πολλὰς δ&#39; ἰφθίμους 
 <a class="sourceLine" id="cb3-9" title="9"><span class="ex">recto.</span>#©2010, Center for Hellenic Studies. Creative Commons </a>
 <a class="sourceLine" id="cb3-10" title="10"><span class="ex">Attribution-Noncommercial-Share</span> Alike 3.0 License.</a></code></pre></div>
 </section>
-<section id="the-citeimage-datamodel" class="slide level2">
-<h2>The <code>citeimage</code> datamodel</h2>
+<section class="slide level2">
+
+<p>The <code>citeimage</code> datamodel has only three propertie:</p>
+<ul>
+<li>URN</li>
+<li>Caption</li>
+<li>Rights</li>
+</ul>
+</section>
+<section id="the-citebinaryimage-datamodel" class="slide level2">
+<h2>The <code>citebinaryimage</code> datamodel</h2>
+<ul>
+<li>a collection implementing <code>citeimage</code></li>
+<li>a citable collection of binary image implementations</li>
+<li>attach the two</li>
+</ul>
 </section>
 <section class="slide level2">
 
@@ -217,23 +246,25 @@ urn:cts:greekLit:tlg0012.tlg001.msA:1.3#πολλὰς δ&#39; ἰφθίμους 
 <a class="sourceLine" id="cb4-7" title="7"><span class="co">#iiifApi#/project/homer/pyramidal/deepzoom/fufolio/papyri/2018a/</span></a>
 <a class="sourceLine" id="cb4-8" title="8"><span class="co">#http://www.homermultitext.org/iipsrv?</span></a>
 <a class="sourceLine" id="cb4-9" title="9"><span class="co">#Creative Commons Attribution Share-Alike.</span></a></code></pre></div>
-</section>
-<section id="the-citebinaryimage-datamodel" class="slide level2">
-<h2>The <code>citebinaryimage</code> datamodel</h2>
+<p>The effect…</p>
 <ul>
-<li class="fragment">a citable image collection</li>
-<li class="fragment">a citable collection of binary image implementations</li>
-<li class="fragment">attach the two</li>
+<li>scholarly identity of an image is preserved</li>
+<li>we can deliver binary image data however is convenient</li>
+<li>an example</li>
 </ul>
+</section>
+<section id="example-2-of-2" class="slide level2">
+<h2>Example 2 of 2</h2>
+<p>Extended String Type Properties</p>
 </section>
 <section class="slide level2">
 
-<p>The effect…</p>
-<ul>
-<li class="fragment">scholarly identity of an image is preserved</li>
-<li class="fragment">we can deliver binary image data however is convenient</li>
-<li class="fragment">an example</li>
-</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" title="1"><span class="co">#!citeproperties</span></a>
+<a class="sourceLine" id="cb5-2" title="2"><span class="ex">Property</span>#Label#Type#Authority list</a>
+<a class="sourceLine" id="cb5-3" title="3"><span class="ex">urn</span>:cite2:fufolio:extended_text_properties.v1.urn:#URN#Cite2Urn#</a>
+<a class="sourceLine" id="cb5-4" title="4"><span class="ex">urn</span>:cite2:fufolio:extended_text_properties.v1.label:#Label#String#</a>
+<a class="sourceLine" id="cb5-5" title="5"><span class="ex">urn</span>:cite2:fufolio:extended_text_properties.v1.propertyurn:#Property URN#Cite2Urn#</a>
+<a class="sourceLine" id="cb5-6" title="6"><span class="ex">urn</span>:cite2:fufolio:extended_text_properties.v1.extendedtype:#Extended Text Type#String#geojson,pleiadesuri,latlong,markdown,teixml</a></code></pre></div>
 </section>
 <section class="slide level2">
 
