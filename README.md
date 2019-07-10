@@ -55,11 +55,13 @@ A directory of progressively more complex expressions of digital libraries in CE
 
 ### CITE-App
 
-A web-app for exploring CITE data. Open it in a browser, and use the control shown below to load one of the `.cex` files. 
+A web-app for exploring CITE data. 
+
+Open `cite-1.14.0.html` in a browser, and use the control shown below to load one of the `.cex` files in the directory `CEX_Tutorial`. 
 
 ![Choose CEX File](presentation/images/choose.png)
 
-Click around and see what you can see.
+Click around and see what you can see. Perhaps start by loading `0_Text_and_Translation.cex` to see a minimal CEX and what it affords (the "Explore Texts" tab might be fun even with this basic one). Inspect the CEX file, and go from there.
 
 ### Presentation
 
