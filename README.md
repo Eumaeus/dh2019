@@ -76,7 +76,7 @@ The source files for the live presentation in Utrecht.
 If you have [Pandoc](https://pandoc.org) installed, you can build the presentation from source with:
 
 ~~~ bash
-cd /presentation
+cd /PATH-TO-THIS-REPO/presentation
 pandoc -t revealjs dh2019.md -s -o dh2019.html --metadata pagetitle=DH2019 -V theme=solarized
 ~~~
 
