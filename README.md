@@ -3,11 +3,15 @@
 
 A presentation at DH 2019, Utrecht, by Christopher W. Blackwell (Furman University) & Neel Smith (College of the Holy Cross). 
 
+## General Documentation: 
+
 <http://cite-architecture.org>
 
-Questions or comments to:
+## Questions or comments to:
 
 Christopher Blackwell (<christopher.blackwell@furman.edu>).
+
+## Lots of Source Code
 
 <https://github.com/eumaeus/>
 
