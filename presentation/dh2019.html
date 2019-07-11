@@ -157,10 +157,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section class="slide level2">
 
-<p>The CITE Architecture seeks to bring to a computational environment the same flexibility regarding <em>identity</em> that scholars have always enjoyed.</p>
-</section>
-<section class="slide level2">
-
 <p><strong>Notional collection:</strong> “Folios of the Venetus A manuscript”</p>
 <p>A notional collection consists merely of uniquely identified objects.</p>
 <p><code>urn:cite2:hmt:msA:12r</code> ➛ An object in a notional collection</p>
@@ -168,9 +164,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section class="slide level2">
 
 <p><strong>Concrete collection:</strong> “The Homer Multitext collection of folios of the Venetus A manuscript, version 1”</p>
-<p>In a concrete collection, each objects is, itself, a collection of citable, typed property values.</p>
+<p>In a concrete collection, each objects is, itself, a collection of <strong>citable, typed property values</strong>.</p>
 <p><code>urn:cite2:hmt:msA.v1:12r</code> ➛ An object in a versioned collection</p>
 <p><code>urn:cite2:hmt:msA.v1.label:12r</code> ➛ A <em>citable property value</em> of an object in a versioned collection</p>
+</section>
+<section class="slide level2">
+
+<p>The CITE Architecture seeks to bring to a computational environment the same flexibility regarding <em>identity</em> that scholars have always enjoyed.</p>
 </section>
 <section id="the-i-in-cite" class="slide level2">
 <h2>The “I” in “CITE”</h2>
@@ -252,7 +252,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section class="slide level2">
 
-<p>There are lots of kinds of “Well-Known Text” (WKT):</p>
+<p>There are many specific kinds of well-known text, including “Well-Known Text”:</p>
 <ul>
 <li>GeoJSON</li>
 <li>URIs</li>
@@ -268,9 +268,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section class="slide level2">
 
-<p>Build a presentation with:</p>
-<p><code>pandoc -t revealjs presentation.md -s -o presentation.html --metadata pagetitle=presentation -V theme=solarized</code></p>
-<p>The result will be <code>presentation.html</code>.</p>
+<p>Build this presentation with:</p>
+<p><code>pandoc -t revealjs dh2019.md -s -o dh2019.html --metadata pagetitle=presentation -V theme=solarized</code></p>
+<p>The result will be <code>dh2019.html</code>.</p>
 </section>
     </div>
   </div>
