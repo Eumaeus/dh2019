@@ -93,7 +93,7 @@ Below are some live links to applications and services currently using the CITE 
 - [This Ancient Greek Lexicon](http://folio2.furman.edu/lsj/). Discussion [here](https://eumaeus.github.io/2018/10/30/lsj.html), [here](https://eumaeus.github.io/2018/11/04/lexService.html), and [here, on versioned collections in CITE](https://eumaeus.github.io/2018/11/05/chicago.html).
 - [This Latin Dictionary](http://folio2.furman.edu/lewis-short/index.html)
 - [*Homer Multitext* Facsimile View](http://www.homermultitext.org/digital/)
-- [Reading Kits](http://folio2.furman.edu/readingKit/iliad_17_1.html)
+- [Reading Kits](http://folio2.furman.edu/readingKit/)
 - Alignment tools: [Haiku example](http://folio2.furman.edu/textCart/alignment/demo4.html?urn=urn:cts:fuMisc:basho.kawazu.fuEd.tok:&urn=urn:cts:fuMisc:basho.kawazu.fuEdKana.tok:&urn=urn:cts:fuMisc:basho.kawazu.fuEdRom.tok:&urn=urn:cts:fuMisc:basho.kawazu.fuTransEng.tok:&urn=urn:cts:fuMisc:basho.kawazu.saijiki:&urn=), [2-way translation alignment example](http://folio2.furman.edu/textCart/alignment/demo3.html?urn=urn:cts:greekLit:tlg0016.tlg001.grc.token:1.8.0-1.8.33&urn=urn:cts:greekLit:tlg0016.tlg001.eng.token:1.8.0-1.8.33&urn=), [4-way translation alignment example](http://folio2.furman.edu/textCart/alignment/demo2.html?urn=urn:cts:greekLit:tlg0031.tlg003.kjv.token:2.1&urn=urn:cts:greekLit:tlg0031.tlg003.reina.token:2.1&urn=urn:cts:greekLit:tlg0031.tlg003.vulgate.token:2.1&urn=urn:cts:greekLit:tlg0031.tlg003.wh.token:2.1&urn=)
 - [Some CEX libraries online](https://github.com/cite-architecture/citedx)
 
