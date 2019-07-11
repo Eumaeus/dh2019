@@ -78,7 +78,7 @@ urn:cite2:fufolio:binaryimg.v1.rights:#Rights#String#
 #!citedata
 urn#label#collection#protocol#path#url#rights
 urn:cite2:fufolio:binaryimg.v1:poxy2099_amphoreusIIF#Binary data for images of papyri: Furman University. IIIF Files at the University of Houson.#urn:cite2:fufolio:papyri.2018a:#iiifApi#/project/homer/pyramidal/deepzoom/fufolio/papyri/2018a/#http://www.homermultitext.org/iipsrv?#Creative Commons Attribution Share-Alike.
-urn:cite2:fufolio:binaryimg.v1:poxy2099_iipDeepZoom#Binary data for images of the Venetus A manuscript. IIIF Files at the University of Houson. (must add .tif.dzi)#urn:cite2:fufolio:papyri.2018a:#iipDeepZoom#/project/homer/pyramidal/deepzoom/fufolio/papyri/2018a/#http://www.homermultitext.org/iipsrv?DeepZoom=#Creative Commons Attribution Share-Alike.
+urn:cite2:fufolio:binaryimg.v1:poxy2099_iipDeepZoom#Binary data for images of the Venetus A manuscript. IIP Deep Zoom Files at the University of Houson. (must add .tif.dzi)#urn:cite2:fufolio:papyri.2018a:#iipDeepZoom#/project/homer/pyramidal/deepzoom/fufolio/papyri/2018a/#http://www.homermultitext.org/iipsrv?DeepZoom=#Creative Commons Attribution Share-Alike.
 urn:cite2:fufolio:binaryimg.v1:poxy2099_localDeepZoom#Binary data for images of the Venetus A manuscript. DeepZoom files#urn:cite2:fufolio:papyri.2018a:#localDeepZoom#/fufolio/papyri/2018a#image_archive#Creative Commons Attribution Share-Alike.
 urn:cite2:fufolio:binaryimg.v1:poxy2099_localJPG#Binary data for images of the Venetus A manuscript. DeepZoom files#urn:cite2:fufolio:papyri.2018a:#JPG#/fufolio/papyri/2018a/#image_archive#Creative Commons Attribution Share-Alike.
 
