@@ -228,15 +228,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="the-citebinaryimage-datamodel" class="slide level2">
 <h2>The <code>citebinaryimage</code> datamodel</h2>
+<p>There is a collection implementing <code>citeimage</code></p>
+<p>Each object in it must have four properties:</p>
 <ul>
-<li>a collection implementing <code>citeimage</code></li>
-<li>a citable collection of binary image implementations:
-<ul>
-<li>Property: protocol (jpeg-in-filesystem, IIIF, IIPImage API, DeepZoom, &amp;c.)</li>
-<li>Server URL</li>
-<li>Path to images on server</li>
-</ul></li>
-<li>attach the two</li>
+<li>The protocol (jpeg-in-filesystem, IIIF, IIPImage API, DeepZoom, &amp;c.)</li>
+<li>A service URL</li>
+<li>A path to images on a server</li>
+<li>The image collection to which it applies</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -245,6 +243,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li>scholarly identity of an image is preserved</li>
 <li>we can deliver binary image data however is convenient</li>
+<li>including in more than one way for the same collection of images</li>
 </ul>
 </section>
 <section id="example-2-of-2" class="slide level2">
