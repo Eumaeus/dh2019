@@ -19,7 +19,6 @@ Christopher Blackwell (<christopher.blackwell@furman.edu>).
 
 <https://github.com/cite-architecture>
 
-
 ## Organization of This Repository
 
 ~~~
@@ -69,7 +68,7 @@ Click around and see what you can see. Perhaps start by loading `0_Text_and_Tran
 
 **N.b.** If you run CITE-App directly from the filesystem, there is a good chance that images will not load correctly, due to browser security restrictions. In Safari, with the Developer Menu open, you can check "Disable Local File Restrictions". Or you can use [the online version of the app, configured as for this presentation.](http://folio2.furman.edu/citeappdh2019/).
 
-**Warning:** CITE-App is a ScalaJS app that does all processing in browser memory. If you load `HMT.cex` in the app, it will *not* be a pleasant experience. To explore the *Homer Multitext* using this generic tool, please use [this version](http://www.homermultitext.org/hmt-digital/) which draws its data from the [*Homer Multitext* Microservice](http://beta.hpcc.uh.edu/hmt/hmt-microservice/) (and see below).
+**Warning:** CITE-App is a ScalaJS app that does all processing in browser memory. If you load `HMT.cex` in the app, it will **not be a pleasant experience**. To explore the *Homer Multitext* using this generic tool, please use [this version](http://www.homermultitext.org/hmt-digital/) which draws its data from the [*Homer Multitext* Microservice](http://beta.hpcc.uh.edu/hmt/hmt-microservice/) (and see below).
 
 ### Presentation
 
